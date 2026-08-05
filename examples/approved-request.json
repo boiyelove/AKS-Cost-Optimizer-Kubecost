@@ -1,0 +1,11 @@
+{
+  "tenantId": "tenant-a",
+  "correlationId": "rank-42-demo-001",
+  "target": "development",
+  "requestedAction": "plan_aks_cost_optimizer_kubecost",
+  "credentialMode": "workload_identity",
+  "publicNetworkAccess": false,
+  "evidenceFresh": true,
+  "approved": false,
+  "containsSecret": false
+}
