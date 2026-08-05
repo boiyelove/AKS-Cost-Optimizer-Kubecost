@@ -2,6 +2,19 @@
 
 Turn AKS allocation telemetry into safe, measurable optimization recommendations.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions; Kubernetes |
+| Services and stack | AKS; Azure Cost Management; Kubecost; Spot VMs; KEDA |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; Kubernetes/YAML manifests; Python validation/tests |
+
 ## Problem statement
 
 A cost-policy request maps namespace allocation data to a guarded recommendation for requests, autoscaling, and Spot/on-demand capacity without automatically disrupting protected workloads.
